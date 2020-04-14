@@ -1,0 +1,2 @@
+# faith
+small discord bot
