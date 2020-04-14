@@ -9,7 +9,7 @@ import net.dv8tion.jda.api.entities.Activity;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        JDA jda = new JDABuilder("Njc4ODM5ODEwMjkwMzUyMTQ4.XpO4aA.1lPR11_K1sU2DoRXr-3lFALqOrE").build();
+        JDA jda = new JDABuilder("Bot Token").build();
         jda.getPresence().setStatus(OnlineStatus.ONLINE);
         jda.getPresence().setActivity(Activity.watching("you from the edge of paradise"));
 
